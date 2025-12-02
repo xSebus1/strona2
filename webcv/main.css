@@ -1,0 +1,49 @@
+:root {
+    --ciemny: #1E1E1E;
+    --biały: #F5FAFF;
+    --zielony: #0B8673;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ramka{
+    width: 100%;
+    height: 98%;
+    border: var(--ciemny), 5px, solid;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+}
+
+.darkmode{
+    width: 100px;
+    height: 100px;
+}
+
+.poweredby{
+    width: 100px;
+    height: 100px;
+}
+
+.sendpng{
+    width: 100px;
+    height: 100px;
+}
+
+.send{
+    background-color: none;
+}
+
