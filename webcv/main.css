@@ -1,49 +1,297 @@
-:root {
-    --ciemny: #1E1E1E;
-    --biały: #F5FAFF;
-    --zielony: #0B8673;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-.lilita-one-regular {
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+ul {
+    list-style-type: "- ";
 }
 
-.ramka{
-    width: 100%;
-    height: 98%;
-    border: var(--ciemny), 5px, solid;
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+
+.main{
+    width: 98vw;
+    height: 97vh;
+    border: #1E1E1E 5px solid;
+}
+
+.nav{
+    display: flex;
+    width: 97vw;
+    height: 15vh;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.pasek{
+    display: flex;
+    width: 60vw;
+    height: 15vh;
+    border: #1E1E1E 3px solid;
+    align-self: center;
+    justify-content: center;
+}
+
+.theme{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 15vh;
+    border: #1E1E1E 3px solid; 
+    align-items: center;
+}
+
+.powered{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 15vh;
+    border: #1E1E1E 3px solid; 
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    margin-top: 590px;
+}
+
+
+.githublogo{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.obraz{
+    display: flex;
+    margin: 40px;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tekst {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.projekt{
+    width: 200px;
+    height: 100px;
+    border: 0px;
+    background-color: #0B8673;
+    margin: 100px;
+    color: white;
+    align-self: center;
 }
 
 .logo{
     width: 100px;
     height: 100px;
-}
-
-.avatar{
-    width: 150px;
-    height: 150px;
+    margin: 50px;
 }
 
 .darkmode{
     width: 100px;
     height: 100px;
+    align-self: center;
 }
 
-.poweredby{
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 97vw;
+    height: 79vh;
+    background-color: forestgreen;
+    margin: 10px;
+}
+
+.portfolio {
+    width: 60vw;
+    height: 100%;
+    background: white;
+    border: #1E1E1E 3px solid;
+}
+
+.prawo {
+    width: 36.84vw;
+    height: 100%;
+    background: #fafafa;
+}
+
+.lista {
+    width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.lista h3 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.lista ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.lista li {
+    list-style-type: "- ";
+    margin-bottom: 4px;
+}
+
+.name {
+    width: 200px;
+    margin-top: 0;
+    color: #1E1E1E;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+.specyfikacja {
+    width: 200px;
+    margin-top: 0;
+    color: #1E1E1E;
+}
+
+.opis {
+    width: 500px;
+    margin-top: 0;
+    color: #1E1E1E;
+}
+
+.github{
+    display: flex;
+    margin-left: 710px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail{
+    display: flex;
+    margin-left: 715px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2{
     width: 100px;
     height: 100px;
+    padding-right: 5px;
 }
 
-.sendpng{
+.icon1{
     width: 100px;
     height: 100px;
+    padding-right: 5px;
 }
 
-.send{
-    background-color: none;
+.experience {
+    width: 260px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 700px;   /* move down */
+    left: 60px;   /* move right */
 }
 
+.experience-top {
+    background: #e6e6e6;
+    text-align: center;
+    padding: 10px;
+}
+
+.experience-bottom {
+    background: #111;
+    color: #fff;
+    padding: 15px;
+}
+
+.experience-bottom ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-bottom li {
+    margin-bottom: 12px;
+}
+
+.contact-box {
+    position: absolute;
+    left: 1250px;
+    top: 700px;
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+}
+
+
+.contact-top {
+    background: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.send-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.contact-bottom {
+    background: #eef4fa;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-bottom input{
+    width: 140px;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+
+.contact-bottom textarea {
+    width: 210px;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.br {
+    width: 98%;
+    margin: 20px auto;
+    border: none;
+    border-top: 4px dashed #000;
+}
