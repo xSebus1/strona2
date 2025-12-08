@@ -1,93 +1,129 @@
-<!doctype html>
-<html lang="pl">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="main.css"/>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
 <body>
-
-<div class="ramka">
     <div class="main">
+        <div class="nav">
+            <div class="pasek">
+                <button class="projekt"><p>Project 0</p></button>
+                <button class="projekt"><p>Project 1</p></button>
 
-        <div class="projekty">
-            <a class="proj-1" href="" target="_blank">Project 0</a>
-            <a class="proj-1" href="" target="_blank">Project 1</a>
-            <a class="proj-1" href="" target="_blank">Project 2</a>
-            <a class="proj-1" href="" target="_blank">Project 3</a>
-            <img src="osmio.png" class="logo">
-        </div>
-        <div class="spacjownik"></div>
+                <img src="logo.png" class="logo">
 
-    <div class="lewo">
-        <div class="avatar">
-            <img src="avatar.png" class="avatar">
-        </div>
-    </div>
-
-    <h1 class="title">Hi, I am XYZ</h1>
-    <h2 class="subtitle">Software developer</h2>
-    <p class="bio">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Phasellus cursus, nibh vel gravida tempor…
-    </p>
-    <p class="linki">
-        email: <b>example.xyz@gmail.com</b><br>
-        github: <b>github.com/example.xyz</b>
-    </p>
-    <div class="darkmoded">
-        <img src="darkmode.png" class="darkmode">
-        <a>Switch theme</a>
-    </div>
-
-    <ul class="cl">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>C#</li>
-        <li>C</li>
-        <li>Go</li>
-        <li>Java</li>
-        <li>Laravel</li>
-        <li>PHP</li>
-        <li>SQL</li>
-        <li>React</li>
-        <li>React Native</li>
-        <li>Kotlin</li>
-        <li>Fortan</li>
-    </ul>
-
-    <div class="powered">
-        Powered by GitHub
-        <img src="githublogo.png" class="poweredby">
-    </div>
-    
-        <div class="bottom">
-            <div class="card">
-                <h3>Experience</h3>
-            <ul class="lista">
-                <li>Samsung Corp. — Intern</li>
-                <li>Netia SA — Leader</li>
-                <li>Xiaomi Corp. — Intern</li>
-            </ul>
+                <button class="projekt"><p>Project 2</p></button>
+                <button class="projekt"><p>Project 3</p></button>
             </div>
 
-            <div class="karta">
-                <form class="kontakt-form">
-                    <div>
-                        <h3>Contact me</h3>
-                        <button class="send">
-                            <img src="send.png" class="sendpng">
-                        </button>
+            <div class="theme">
+                <img src="darkmode.png" class="darkmode" alt="theme">
+                <p>Switch theme</p>
+            </div>
+        </div>
+
+        <div class="info">
+
+            <div class="portfolio">
+                <div class="omnie">
+
+                    <div class="left-side">
+                        <div class="obraz">
+                            <img src="avatar.png" class="avatar">
+                        </div>
+
+                    <div class="experience">
+                        <div class="experience-top">
+                            <h3>Experience</h3>
+                        </div>
+
+                        <div class="experience-bottom">
+                            <ul>
+                                <li>
+                                    <strong>Samsung Corp.</strong> &lt; 2020–2022 &gt;<br>
+                                    <span>(Intern) – Early development unit</span>
+                                </li>
+
+                                <li>
+                                    <strong>Netia SA.</strong> &lt; 2018–2020 &gt;<br>
+                                    <span>(Leader) – Project manager</span>
+                                </li>
+
+                                <li>
+                                    <strong>Xiaomi Corp.</strong> &lt; 2016–2018 &gt;<br>
+                                    <span>(Intern) – Web development</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <input type="email" placeholder="Type your e-mail">
-                    <textarea rows="4" placeholder="Enter message you want to send me…"></textarea>
-                </form>
+
+
+                    <div class="contact-box">
+                        <div class="contact-top">
+                            <h3>Contact me</h3>
+                            <img src="send.png" class="send-icon">
+                        </div>
+
+                        <div class="contact-bottom">
+                            <input type="text" placeholder="Type your e-mail.">
+                            <textarea placeholder="Enter message you want to send me..."></textarea>
+                        </div>
+                    </div>
+
+
+
+                        <div class="tekst">
+                            <h1 class="name">Hi, I am Xyz</h1>
+                            <h3 class="specyfikacja">Software developer</h3>
+                            <h5 class="opis">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                            </h5>
+                        </div>
+                        <div>
+                            <div class="mail">
+                                <img src="mail.png" class="icon1">
+                                <p>example.xyz@gmail.com</p>
+                            </div>
+
+                            <div class="github">
+                                <img src="github.png" class="icon2">
+                                <p>github.com/example.xyz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="prawo">
+                <div class="lista">
+                    <h3>Technology stack</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>C</li>
+                        <li>GO</li>
+                        <li>Java</li>
+                        <li>Laravel</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>Kotlin</li>
+                        <li>Fortran</li>
+                    </ul>
+                </div>
+                <div class="powered">
+                    <img src="githublogo.png" class="githublogo" alt="github">
+                    <p>Powered by</p>
+                </div>
+            </div>
+        </div>
+        <hr class="br">
     </div>
-</div>
-                
 </body>
 </html>
-        
