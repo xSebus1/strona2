@@ -50,4 +50,10 @@ def draw():
                 print(color_text("*"), end="")
             elif (y, x) in snake:
                 print("#", end="")
-                
+            
+def getsuperfood(food, proc):
+    randomowa = random.randint(1, 100)
+    if randomowa <= proc:
+        return food
+    else:
+        pass
